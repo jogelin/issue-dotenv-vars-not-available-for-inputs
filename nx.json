@@ -3,6 +3,10 @@
   "namedInputs": {
     "default": [
       "{projectRoot}/**/*",
+      "{projectRoot}/.env",
+      {
+        "env": "VERSION"
+      },
       "sharedGlobals"
     ],
     "production": [
